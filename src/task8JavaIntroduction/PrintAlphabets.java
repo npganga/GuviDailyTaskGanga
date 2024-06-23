@@ -12,7 +12,7 @@ public class PrintAlphabets {
 			char a= (char)i;
 			
 			// Print A to Z
-			System.out.println(""+ a);
+			System.out.print(a+" ");
 		}
 
 	}
