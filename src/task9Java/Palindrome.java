@@ -33,7 +33,7 @@ public class Palindrome {
 				}
 		}
 		
-		//validating the 
+		//validating the condition of palindrome
 		if(count==(checklength/2)) {
 			System.out.println("The given string '"+check+"' is palindrome");
 		}
