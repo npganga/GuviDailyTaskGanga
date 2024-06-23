@@ -23,7 +23,12 @@ public class GreatestSumOfTwoIntegers {
 		if ((a+b)> (c+d)) {
 			System.out.println("The sum of a '"+a +"' and b '"+b +"' is greater than the sum of c '"+c +"' and d '"+d+"'" );
 		}
-		
+		else if((a+b)< (c+d)) {
+			System.out.println("The sum of c '"+c +"' and d '"+d +"' is greater than the sum of a '"+a +"' and b '"+b+"'" );
+		}
+		else if((a+b) == (c+d)){
+			System.out.println("The sum of c '"+c +"' and d '"+d +"' is equals to the sum of a '"+a +"' and b '"+b+"'" );
+		}
 		//Deference the Scanner object		
 		in.close();
 	}
